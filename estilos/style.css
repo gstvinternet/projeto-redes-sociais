@@ -9,6 +9,7 @@
 html, body {
     height: 100vh; /*altura total 100vh 100 view height*/
     width: 100vw; /*largura total 100vw view width*/
+    background-color:black
 }
 
 body {
@@ -38,3 +39,10 @@ section#telefone {
     transform: translate(-50%, -50%);
     */
 }
+ iframe#tela {
+    position: relative;
+    top: 80px; /*borda do topo*/
+    left: 22px; /*borda da esquerda*/
+    width: 269px;
+    height: 471px;
+ }
