@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
 }
 
 /*
@@ -14,8 +19,7 @@
     height: 0px;
 }
 
-/*
-        a img { 100vw; } tem 100% do view-width pois assim ela vai ficar em tela cheia dentro do "celular" muito bonitinho 
+/*   a img { 100vw; } tem 100% do view-width pois assim ela vai ficar em tela cheia dentro do "celular" muito bonitinho 
         */
 img {
     width: 100vw;
